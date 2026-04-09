@@ -1,0 +1,36 @@
+<!--Detemines type of document, HTML5-->
+<!DOCTYPE html>
+<!--Language attribute added to determine the language of the page, english-->
+<html lang="en">
+<!--Contains information about the web page-->
+<head>
+    <!--Character set standard-->
+    <meta charset="UTF-8">
+    <!--Device Screen responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external css file -->
+    <link rel="stylesheet" href="style.css">
+    <!--Title of the web page-->
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <h1>Salary Calculator</h1>
+    <!-- Added labels and input into a container to center everything -->
+    <div id="cal">
+        <label>Employee Name: </label>
+        <input type="text" id="user" name="username">
+
+        <label>Daily Rate: R</label>
+        <input type="number" id="rate" name="daily_rate">
+
+        <label>Number of working days: </label>
+        <input type="number" id="days" name="numberOfDays"> <br><br>
+
+        <button id="onSubmit">Submit</button> 
+    </div>
+    
+
+    <!-- Link to external Javascript file-->
+    <script src="script.js"></script>
+</body>
+</html>
